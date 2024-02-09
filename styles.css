@@ -20,7 +20,9 @@
     transition: width 0.3s;
 }
 canvas {
-	border: 1px solid #000;
+	border: 1px solid #000;  
+	width: 50%;
+	height: 50%;
 }
 input[type="range"] {
     width: 80%;
