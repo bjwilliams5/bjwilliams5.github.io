@@ -24,6 +24,11 @@ canvas {
 	width: 50%;
 	height: 50%;
 }
+#probCanvas {
+	border: 1px solid #000;  
+	width: 40%;
+	height: 50%;
+}
 input[type="range"] {
     width: 80%;
 }
