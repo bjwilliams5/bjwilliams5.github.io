@@ -24,7 +24,7 @@
 
     <script>// this just updates the value next to the slider
 let minDesc = document.getElementById('minDesc');
-let radioX = js_vars.round_type;
+let radioX = 2;
 
 function updateMinSlider(input) {
     let minSlider = parseInt(input.value)
@@ -37,7 +37,7 @@ function updateMaxSlider(input) {
     maxDesc.innerText = `${maxSlider}`
 }
 // adds check of single treatment
-let singleTreat =  parseInt(js_vars.single_treat);
+let singleTreat =  0;
 
 // this prevents min and max from crossing each other and automatically updates opposite bound
 let minSlider = document.getElementById('minSlider');
